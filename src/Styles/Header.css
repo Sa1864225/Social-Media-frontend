@@ -1,0 +1,22 @@
+.Header{
+    /* border-right: groove; */
+    position: fixed;
+}
+.Header nav{
+    margin: 0px 40px;
+    font-size: large;
+}
+.Header h2{
+    font-family:'Times New Roman', Times, serif;
+    font-style:oblique;
+}
+.Header ul{
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+    padding-left: 0;
+}
+.Header ul li{
+    margin: 23px 0;
+
+}
