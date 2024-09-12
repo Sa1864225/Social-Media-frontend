@@ -1,0 +1,12 @@
+.Home{
+    display: flex;
+
+}
+.Story-Feed{
+    margin-left: 20%;
+    padding-left: 3%;
+    width: 50%;
+    border-left: groove;
+    padding-right: 3%;
+    border-right: groove;
+}

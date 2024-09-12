@@ -1,0 +1,15 @@
+.PersonStory img{
+    height: 80px;
+    border: solid;
+    border-radius: 50%;
+    border-color: green;
+    width: 80px;
+}
+.PersonStory h4{
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 300;
+}
+.PersonStory{
+    margin: 10px;
+}

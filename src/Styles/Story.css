@@ -1,0 +1,8 @@
+.Story{
+    display: flex;
+    justify-content: space-between;
+    overflow:auto;
+}
+.Story::-webkit-scrollbar{
+    display: none;
+}
