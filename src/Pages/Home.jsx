@@ -16,7 +16,7 @@ export const Home = () => {
             <Story></Story>
             <Feed></Feed>
         </div>
-        <div>
+        <div className='Suggestion-footer' >
             <Suggestion></Suggestion>
             <Footer></Footer>
         </div>

@@ -6,7 +6,10 @@
     margin-left: 20%;
     padding-left: 3%;
     width: 50%;
-    border-left: groove;
+    border-left: 0.2px rgba(255, 255, 255, 0.144) groove;
     padding-right: 3%;
-    border-right: groove;
+    border-right: 0.2px rgba(255, 255, 255, 0.14) groove;
+}
+.Suggestion-footer{
+    width: 25%;
 }

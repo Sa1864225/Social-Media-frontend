@@ -1,0 +1,16 @@
+.suggestion{
+    margin: 20px;
+}
+.suggestion .heading{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.suggestion button{
+    background-color: black;
+    color: blue;
+    border: none;
+}
+.suggestion .heading h2{
+    font-size: medium;
+}

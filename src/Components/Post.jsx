@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/Post.css';
 import post from '../Images/20230529_111318.jpg'
 import dp from '../Images/DP.jpg'
-import { BiLike } from "react-icons/bi";
+import { FaRegHeart } from "react-icons/fa6";
 import { FaRegComment } from "react-icons/fa";
 import { RiShareForwardLine } from "react-icons/ri";
 import { FaRegBookmark } from "react-icons/fa6";
@@ -18,20 +18,20 @@ const Post = () => {
           <h4>Username</h4>
         </div>
         <div>
-          <BsThreeDots style={{paddingTop:"15px"}}/>
+          <BsThreeDots style={{fontSize:'1.4rem', padding:'10px'}}/>
         </div>
       </div>
       <div className="post">
         <img src={post} alt="post" />
       </div>
       <div className="stats">
-        <div>
-          <BiLike/>
-          <FaRegComment/>
-          <RiShareForwardLine/>
+        <div className='like-comment'>
+          <div><FaRegHeart style={{fontSize:'1.4rem', padding:'10px'}}/></div>
+          <div><FaRegComment style={{fontSize:'1.4rem', padding:'10px'}}/></div>
+          <div><RiShareForwardLine style={{fontSize:'1.4rem', padding:'10px'}}/></div>
         </div>
         <div>
-          <FaRegBookmark/>
+          <FaRegBookmark style={{fontSize:'1.4rem', padding:'10px'}}/>
         </div>
       </div>
     </div></center>
